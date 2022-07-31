@@ -19,3 +19,7 @@
 - Block blobs - this is made up of blocks of data that can be managed individually
 - Append blobs - these are block blobs that are optimized for append opeartions - good for logging
 - Page blobs - used for virtual hard drive files for Azure virtual machines
+
+# Blob service - uploading a blob
+- Remember to create a container and then upload the object
+- Create folders by navigating to "Advanced" and go to Upload to Folder
