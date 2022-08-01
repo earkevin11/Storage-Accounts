@@ -63,7 +63,7 @@
 - It's just another interface to work with the Storage Accounts
 
 
-# Using Access Keys
+# Authorization via Access Keys
 - Say you want to give users access to work with the Storage Accounts, we can provision Access Keys
 - Go to the Storage Account < Access Keys 
 - We have two keys. If Key 1 gets compromised, we can use Key 2. We can also rotate Key 1 if it is compromised.
@@ -72,4 +72,10 @@
 
 
 
-# Shared Access Signatures  - At the Blob Level
+# Authorization via Shared Access Signatures  - At the Blob Level
+- Navigate to Storage Account and your container
+- Change Access Level > Select Private no anonymous access
+- Select any object > Generate a SAS (It will use 1 of the access key to generate a SAS)
+- Say we want to give access to a specific Blob for only 1 week, we can set a TIME LIMIMT for the SAS
+- We can also designate specific IP addresses to certain blobs
+- Access is only valid via the SAS.
