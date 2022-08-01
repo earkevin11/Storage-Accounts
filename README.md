@@ -79,3 +79,9 @@
 - Say we want to give access to a specific Blob for only 1 week, we can set a TIME LIMIMT for the SAS
 - We can also designate specific IP addresses to certain blobs
 - Access is only valid via the SAS.
+
+
+
+
+# Authorization via Shared Access Signatures  - At the Storage Level
+-
