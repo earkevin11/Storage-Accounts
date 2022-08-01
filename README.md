@@ -55,3 +55,7 @@
 - Time-based retention - no one should be able to modify the blob for a day
 
 # Azure Storage Accounts - Different Authorization techniques
+- We can use Access Keys, Shared Access Signatures, and Azure AD.
+
+# Azure Storage Explorer
+
