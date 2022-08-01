@@ -58,4 +58,18 @@
 - We can use Access Keys, Shared Access Signatures, and Azure AD.
 
 # Azure Storage Explorer
+- You can work with Azure Storage accounts using Storage Explorer instead of the Azure Portal
+- You would need to download Azure Storage Explorer and install
+- It's just another interface to work with the Storage Accounts
 
+
+# Using Access Keys
+- Say you want to give users access to work with the Storage Accounts, we can provision Access Keys
+- Go to the Storage Account < Access Keys 
+- We have two keys. If Key 1 gets compromised, we can use Key 2. We can also rotate Key 1 if it is compromised.
+- Take the key < Go to "Add an Account" on the Explorer > Select Storage Account > add the selected key > Connect
+- Try and access the storage accounts and their containers
+
+
+
+# Shared Access Signatures  - At the Blob Level
