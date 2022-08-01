@@ -47,3 +47,11 @@
 
 # Azure Storage Accounts - Mapping a drive alternative way
 - Go to my computer > map a network drive > grab the name of the folder on the fileshare > select "connect using credentials" > and use the username and password that is located in the powershell script
+
+# Immutable Blob Storage Lab #261
+- Immutable blobs means no one can change the contents of the objects
+- Access policy > Under Immutable blob storage > Add a policy 
+- Legal Hold - if for legal reasons no one can manipulate the contents
+- Time-based retention - no one should be able to modify the blob for a day
+
+# Azure Storage Accounts - Different Authorization techniques
