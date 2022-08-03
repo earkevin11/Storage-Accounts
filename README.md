@@ -93,3 +93,8 @@
 # Azure Storage Accounts - Stored Access Policy
 - If a Shared Access Signature gets in the wrong hands, we can use Stored Access Policy where we can disable permissions. 
 - The SAS would be invalid and not have any permissions that were previously given. 
+
+# Azure Storage Accounts - Active Directory Authentication
+- We can assign access to users within Azure AD by going to Azure Storage Account > Access Control (IAM) > Add Role Assignment > Select "Storage Account Contributor"
+- Select the user
+- Now the user will be able to access the storage account and their services
