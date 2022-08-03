@@ -88,3 +88,7 @@
 - There is a time/end time for SAS access 
 - We can also specify which IP addresses are allowed
 - Connect via SAS
+
+
+# Azure Storage Accounts - Stored Access Policy
+- 
