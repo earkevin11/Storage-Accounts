@@ -91,4 +91,5 @@
 
 
 # Azure Storage Accounts - Stored Access Policy
-- 
+- If a Shared Access Signature gets in the wrong hands, we can use Stored Access Policy where we can disable permissions. 
+- The SAS would be invalid and not have any permissions that were previously given. 
