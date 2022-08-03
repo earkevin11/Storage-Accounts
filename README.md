@@ -83,5 +83,8 @@
 
 
 
-# Authorization via Shared Access Signatures  - At the Storage Level
--
+# Authorization via Shared Access Signatures  - At the Storage Account Level
+- We can specify and limit what access/permissions a user has using a SAS.
+- There is a time/end time for SAS access 
+- We can also specify which IP addresses are allowed
+- Connect via SAS
