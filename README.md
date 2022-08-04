@@ -98,3 +98,9 @@
 - We can assign access to users within Azure AD by going to Azure Storage Account > Access Control (IAM) > Add Role Assignment > Select "Storage Account Contributor"
 - Select the user
 - Now the user will be able to access the storage account and their services
+
+
+# Azure Storage Accounts - Authorization techniques review
+- 3 ways to give access are 1. Access Keys, 2. SAS, 3. Azure Active Directory
+- Access Keys should be the last resort in giving access.
+- Most secure way is defining users in Azure AD, then use SAS, and then using Shared Access Keys
